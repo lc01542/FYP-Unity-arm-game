@@ -21,7 +21,7 @@ This project is designed to run in Unity, and it contains multiple game scenes. 
 3. **Clone the Repository**:
    - Clone this repository to your local machine using the following command:
      ```sh
-     git clone https://github.com/your-username/your-repo-name.git
+     git clone https://github.com/lc01542/FYP-Unity-arm-game.git
      ```
    - Alternatively, you can download the ZIP file and extract it to your preferred location.
 
@@ -51,20 +51,6 @@ Each joint in the project is associated with two key binds: one for positive rot
 
 2. **Change Key Binds in the Inspector**:
    - With the ARM GameObject selected, go to the Inspector window.
-   - Locate the `Control` script component.
-   - Within the `Control` script, you will find options to change the key binds for positive and negative rotation.
+   - Locate the `ArticulationJointController` script component.
+   - Within the `ArticulationJointController` script, you will find options to change the key binds for positive and negative rotation.
 
-## Project Structure
-- **FINAL/**: Main folder to be added to Unity Hub.
-- **Scenes/**: Contains all the game scenes. Each scene file represents a different game or part of the game.
-
-## Additional Notes
-- Ensure you have the necessary permissions to access the repository.
-- Make sure all required packages and dependencies are installed when opening the project in Unity for the first time.
-- If you encounter any issues, refer to the Unity documentation or seek help from the community.
-
-## Contributing
-Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
